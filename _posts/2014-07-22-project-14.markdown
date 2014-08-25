@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 14
+title: X-Wing
+date: 2014-07-24
+img: xwing.png
+alt: image-alt
+project-date: March 2012
+client: La Salle BCN
+category: 3D modelling
+description: 3D model of an X-Wing from Star Wars<br><img src="/img/portfolio/ala_X_001.jpg" class="img-responsive img-centered"><br><img src="/img/portfolio/ala_X_002.jpg" class="img-responsive img-centered"><br><img src="/img/portfolio/ala_X_003.jpg" class="img-responsive img-centered"><br><img src="/img/portfolio/ala_X_004.jpg" class="img-responsive img-centered"><br><img src="/img/portfolio/ala_X_005.jpg" class="img-responsive img-centered">
+
+---

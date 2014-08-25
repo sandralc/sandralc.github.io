@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 8
+title: Alakkazam, Inc.
+date: 2014-08-08
+img: alakkazam.png
+alt: image-alt
+coverimg: alakkazam-cover.png
+project-date: February 2013 - April 2014
+duration: 2 months
+roles: Web designer and developer
+tools: CakePHP, Adobe Illustrator, Adobe Photoshop
+client: Alakkazam, Inc.
+category: Web development
+overview: Website for a project development company. Developed with PHP (using CakePhp framework) and i18n for bilingual functionality.
+description: I designed and developed the <a href="http://www.alakkazam.com" target="_blank">main website</a> of the company in PHP. This included designing the corporate image and logo and all the graphical elements of the website. <br><img src="/img/portfolio/alakkazam01.png" class="img-responsive img-centered"><br><strong><a href="http://www.alakkazam.com" target="_blank">Visit online</a></strong>
+
+---

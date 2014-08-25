@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 17
+title: My portfolio
+date: 2014-07-15
+img: jekyll.png
+coverimg: jekyll-cover.png
+alt: image-alt
+project-date: August 2014
+tools: Jekyll, Github pages, Markdown
+client: La Salle BCN
+category: Web development, Web design
+description: My portfolio.
+
+---

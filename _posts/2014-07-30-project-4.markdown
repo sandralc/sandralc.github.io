@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: 4
+title: LHIVE (VIHDA)
+date: 2014-07-30
+img: lhive.png
+alt: image-alt
+coverimg: lhive-cover.png
+project-date: November 2012 - January 2013
+platform: PC
+tools: Flash (Actionscript), Adobe Photoshop, Adobe Illustrator
+duration: 3 months
+team: 2
+roles: Producer, Game Designer, Game Developer, Artist
+client: Proide Association
+category: Video game development
+overview: Single player 2D simulation - strategy game, conceived to raise awareness among youth about HIV and AIDS. <br>LHIVE (VIHDA, in spanish) is a simulation 2D strategy game conceived to aware young people about AIDS and HIV. In LHIVE the player starts with a 5 billion budget and has to use it strategically to avoid that the HIV spreads while he subsidizes investigation to find a vaccine. Each country starts from the actual situation of the virus at that certain country and evolves based on real statistics. This initial situation is specified by an external XML file that the game loads at the beginning. <br><img src="/img/portfolio/lhive02.png" class="img-responsive img-centered"><br>The actions that the player does on each country have consecuences on the velocity of the spread of the virus and AIDS. <br> The player has to save the humanity before the virus exterminates the whole population.
+description: In this project, I was primarily responsible for the game design, some of the elements of the GUI and the game development. <br>Other duties included programming the AI, searching for real data from each country and data for past years to workout the evolution of the virus.<br><img src="/img/portfolio/lhive01.png" class="img-responsive img-centered">
+(Client: Proide association)
+
+---

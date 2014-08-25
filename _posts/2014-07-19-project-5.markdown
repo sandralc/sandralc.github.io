@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 5
+title: Corporate image
+date: 2014-07-19
+img: corporateimage.png
+coverimg: corporateimage-cover.png
+alt: image-alt
+project-date: November 2013
+client: La Salle BCN
+category: Graphical design
+description: Design of the corporate image, logo and graphical elements of a ficticious company that will develop our web application, PR0SQUAD.
+
+---

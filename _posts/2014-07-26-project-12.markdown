@@ -1,0 +1,18 @@
+---
+layout: default
+modal-id: 12
+title: Merlin
+date: 2014-07-26
+img: merlin.png
+alt: image-alt
+project-date: February 2012 - June 2012
+duration: 4 months
+roles: Production, direction, 3D modelling, render and video editing
+client: La Salle BCN
+team: 1
+category: 3D animation
+trailer: <iframe width="700" height="394" src="//www.youtube.com/embed/tFk_3heArLQ?rel=0" frameborder="0" allowfullscreen></iframe>
+overview: 3D Logo Animation for a ficticious company named "Merlin Productions".
+description: This was a solo project. I carried out the production, direction, 3D modelling and animation of the elements, video editing and postproduction.
+
+---

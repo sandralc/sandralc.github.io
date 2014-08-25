@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 15
+title: Fair Stand for Epysteme Association
+date: 2014-07-18
+img: stand.png
+coverimg: stand01.png
+alt: image-alt
+project-date: November 2013
+client: La Salle BCN
+category: Print design; Stand design
+description: Design of the whole fair stand. I took care of the design and distribution of the elements of the stand (see figure below)<br><img src="/img/portfolio/stand02.png" class="img-responsive img-centered"><br>I was also responsible for the design of the printed panflets and magazines that were distributed to the visitors.<br><img src="/img/portfolio/stand03.png" class="img-responsive img-centered"><br><img src="/img/portfolio/stand04.png" class="img-responsive img-centered"><br><img src="/img/portfolio/stand05.png" class="img-responsive img-centered">
+
+---

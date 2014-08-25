@@ -1,0 +1,20 @@
+---
+layout: default
+modal-id: 3
+title: LS Racer
+date: 2014-07-28
+img: lsracer.png
+alt: image-alt
+coverimg: lsracer-cover.png
+project-date: January 2012 - June 2012
+platform: PC
+tools: OpenGL, DevIL, VisualStudio
+duration: 3 months
+team: 2
+roles: Game Developer
+client: La Salle BCN
+category: Video game development; OpenGL
+overview: LS Racer is a single player, 3D racing game developed using OpenGL and DevIL for loading the textures. The player has 3 different cars to choose. THe first one is faster but the last one is stronger.<br>We programmed 3 different views (angled, top and at the ground).<br><img src="/img/portfolio/lsracer01.png" class="img-responsive img-centered">
+description: My duties included programing the 3D model loading, the position of the lights, implementing the bounding boxes detection and part of the game mechanics. <br>I also took care of the textures and visual quality of the game.<br><img src="/img/portfolio/lsracer02.png" class="img-responsive img-centered">
+
+---

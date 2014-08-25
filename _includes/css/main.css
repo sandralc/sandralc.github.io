@@ -63,7 +63,8 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    text-shadow: 0 0 15px #{{ site.color.primary }};
+    /*background-color: #{{ site.color.primary }};*/
 }
 
 hr.star-primary {
@@ -82,7 +83,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: url('img/cover3.jpg');
+    /*background: #{{ site.color.primary }};*/
 }
 
 header .container {
@@ -170,6 +172,10 @@ header .intro-text .skills {
     border: 0;
 }
 
+.fonty {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 section {
     padding: 100px 0;
 }
@@ -211,7 +217,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(204,51,51,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -265,7 +271,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: rgba(204,51,51,1.0);
     background: #fff;
 }
 
@@ -394,6 +400,11 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.portfolio-modal .modal-content p{
+    text-align: justify;
+    text-justify: auto;
 }
 
 .portfolio-modal .modal-content h2 {
