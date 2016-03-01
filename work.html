@@ -1,0 +1,409 @@
+<html lang="en">
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/sndr.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="jquery-1.11.3.min.js"></script>
+		<script src="jquery.lettering.js"></script>
+		<script src="jquery.transit.min.js"></script>
+		<script src="jquery.color-2.1.2.min.js"></script>
+		<script src="bootstrap.js"></script>
+		<script src="sndr.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="extra-padding">
+				<div class="row">
+					<nav id="navbar">
+						<ul class="nav">
+							<li class="col-sm-2"><a href="work.html" class="link clicked"><span class="icon-work4"></span><br>Work</a></li>
+							<li class="col-sm-2"><a href="cv.html" class="link"><span class="icon-cv2"></span><br>CV</a></li>
+								<li id="logo" class="col-sm-4">
+									<a id="logo-text" href="index.html" class="link"><span class="icon-logo"></span></a>
+								</li>
+							<li class="col-sm-2"><a href="publications.html" class="link"><span class="icon-publications2"></span><br>Publications</a></li>
+							<li class="col-sm-2"><a href="contact.html" class="link"><span class="icon-contact2"></span><br>Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+		<div class="container-fluid">
+			<section id="worklist">
+				<ul class="row">
+					<div class="col-md-6">
+						<div class="row">
+							<li class="col-md-12">
+								<figure>
+									<img class="img-responsive" src="img/_tartarusv2.png">
+									<figcaption>
+										<h2>Tartarus</h2>
+										<p>An experimental game prototype that tests a verb-noun based spell casting game mechanic in a procedurally generated three layered world</p>
+										<a href="#tartarus" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="col-md-6">
+								<figure>
+									<img class="img-responsive" src="img/_lhivev3.png">
+									<figcaption class="small-square">
+										<h2>Lhive</h2>
+										<p>A 2D single player simulation game developed for Proide (ONG) whose aim is to fight against the spread of the HIV virus and raise AIDS awareness among the youth</p>
+										<a href="#lhive" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="col-md-6">
+								<figure>
+									<img class="img-responsive" src="img/_miwmiw.png">
+									<figcaption class="small-square">
+										<h2>MiwMiw</h2>
+										<p>A new tangible interaction model using gesture based interaction and Internet of Things to improve the dialogue between humans and everyday objects</p>
+										<a href="#miwmiw" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="col-md-12">
+								<figure>
+									<img class="img-responsive" src="img/_bittrip.png">
+									<figcaption>
+										<h2>Bittrip</h2>
+										<p>A 3D hardcore platformer (2.5D perspective) where a bipolar bit-based character has to get through WiFi waves, high-speed internet, faulty server wires and fight against evil viruses.</p>
+										<a href="#bittrip" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
+									</figcaption>
+								</figure>
+							</li>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<li class="col-md-12">
+								<figure>
+									<img class="img-responsive" src="img/_vikingsv2.png">
+									<figcaption>
+										<h2>Ragnarök</h2>
+										<p>A commissioned Viking-themed battle card game (250+ cards)</p>
+										<a href="#vikings" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="col-md-12">
+								<figure>
+									<img class="img-responsive" src="img/_akamon.png">
+									<figcaption>
+										<h2>Akamon Millenium</h2>
+										<p>A bunch of social casino games for Facebook</p>
+										<a href="#akamon" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
+									</figcaption>
+								</figure>
+							</li>
+							<li class="col-md-6">
+								<figure>
+									<img class="img-responsive" src="img/_venice.png">
+									<figcaption class="small-square">
+										<h2>Project X</h2>
+										<p>My next project. I'm already working on it :)</p>
+									</figcaption>
+								</figure>
+							</li>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- === MODAL WINDOW === -->
+		<div class="modal fade" tabindex="0" role="dialog" id="tartarus">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h3 class="modal-title">Tartarus</h3>
+		        <h4>An experimental game prototype that tests a verb-noun based spell casting game mechanic in a procedurally generated three layered world</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Platform: </span> PC</td>
+			        		<td><span class="bold">Duration: </span> 6 months</td>
+			        		<td><span class="bold">Team size: </span>1</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Tools used: </span> IntelliJ, LibgGDX (Java game development framework)</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Role: </span> Game Designer, Game Programmer</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Overview</h5>
+		        <p>Single player, 2D isometric experimental game prototype, that tests a verb-noun-element based spell casting mechanic (Ars Magica, Magicka inspired) in a procedurally generated three layered world.</p>
+		        <h5>Core game mechanics</h5>
+		        <h6>Procedurally generated three-layered world</h6>
+		        <p>The prototype generates a procedurally generated world with 3 layers: surface layer, underground layer full of caves and passages and an underwater layer with the same kind of feature.</p>
+		        <p>It also divides the world in cities and islands and procedurally names them, using different types of names for northern, eastern, western and southern regions.
+		        <img src="img/Tartarus_03.gif">
+		        <img src="img/Tartarus_04.png">
+		        <h6>Spell-casting mechanic</h6>
+		        <p>The initial idea for the spell-casting mechanic was partially inspired by Ars Magica's (Creo-Intellego-Muto-Perdo-Rego) mechanic and fictional magic grimoires (such as Lovecraft's Necronomicon) spell casting syntax, trying to adapt to the more restricted virtual interaction world without giving away much of the flexibility that physical world spell casting phrasing has.</p>
+		        <p>The spell-casting mechanic tries to embrace all possible spell outcomes: creating creatures from scratch, reanimating objects or corpses, casting fire/storm attacks, etc.</p>
+		        <p>In order to achieve this, the experimental prototype makes use of a series of elements that can be used both as verbs and nouns. These elements were very carefully chosen in order to be intuitive and able to embrace as much outcomes as possible. Elements are also intented to be used as complementary attributes to be specified in the spell.</p>
+		        <p>For example: "Creo" + "Corpus" + "Astutia" will create a certain type of creature that has intelligence, while "Creo" + "Corpus" will create a creature with a very basic IQ.</p>
+		        <img src="img/Tartarus_01.gif">
+		        <h6>AI mechanic</h6>
+		        <p>The AI of the different creatures that can be created is used as a game mechanic as well, because each of them has a pre-programmed behaviour that reacts to the player's input (that acts as some kind of omnipotent god).</p>
+		        <img src="img/Tartarus_02.gif">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- === MODAL WINDOW === -->
+		<div class="modal fade" tabindex="0" role="dialog" id="vikings">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h3 class="modal-title">Ragnarök</h3>
+		        <h4>A commissioned Viking-themed battle card game with more than 250 cards</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Platform: </span> PC</td>
+			        		<td><span class="bold">Duration: </span> 4 months</td>
+			        		<td><span class="bold">Team size: </span> 1</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Tools used: </span> Excel, NanDeck (http://www.nand.it/nandeck/), Paper prototyping</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Role: </span> Game Designer</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Overview</h5>
+		        <p>Ragnarök (provisional name) is a commissioned 2-player card battle game with customizable decks where the players take the role of a viking king and have to defeat the enemy. There is a future intention to expand the game and design a tournament version of the game made of two phases.</p>
+		        <h5>Core game mechanics</h5>
+		        <p>Due to a non-disclosure agreement I cannot display information about the game. I can say, though, that the game main core mechanic involves combining (connecting) cards through slots. The game becomes complex through a very simple mechanic.</p>
+		        <h5>Card Design & Balancing</h5>
+		        <p>More than 250 cards, of different types, were designed, emerging from the core game mechanics of the game.</p>
+		        <p>The game was modelled in a (pretty huge!) Excel spreadsheet, and using a system of costs vs. benefits for each of the cards, the balancing was performed. This part of the process took quite a few iterations (involving paper prototyping and playtesting as well).</p>
+		        <img src="img/Vikings_01.png">
+		        <h5>Paper prototyping and playtesting</h5>
+		        <img src="img/Vikings_02.png">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+				<!-- === MODAL WINDOW === -->
+		<div class="modal fade" tabindex="0" role="dialog" id="lhive">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h3 class="modal-title">Lhive</h3>
+		        <h4>A 2D single player simulation game developed for Proide (ONG) whose aim is to fight against the spread of the HIV virus and raise AIDS awareness among the youth</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Platform: </span>PC</td>
+			        		<td><span class="bold">Duration: </span>&lt; 3 months</td>
+			        		<td><span class="bold">Team size: </span>2</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Tools used: </span> Flash (Actionscript), Adobe Illustrator, Adobe Photoshop</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Role: </span> Producer, Game Designer, Game Developer, Artist</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Overview</h5>
+		        <p>Single player 2D simulation - strategy game, conceived to raise awareness among youth about HIV and AIDS.</p>
+				<p>LHIVE (VIHDA, in spanish) is a simulation 2D strategy game developed for the ONG Proide conceived to educate young people on AIDS and HIV. In LHIVE the player starts with a 5 billion budget and has to use it strategically to avoid that the HIV spreads while he subsidizes investigation to find a vaccine. Each country starts from the actual situation of the virus at that certain country and evolves based on real statistics. This initial situation is specified by an external XML file that the game loads at the beginning.</p>
+				<p>The actions that the player does on each country have consecuences on the velocity of the spread of the virus and AIDS. </p>
+				<p>The player has to save the humanity before the virus exterminates the whole population.</p>
+		        <h5>Core game mechanics</h5>
+		        <h6>Resources management</h6>
+		        <p>The player takes the role of some kind of omnipresent ruler of the Earth that is provided with some budget in order to exterminate the virus and find the cure. The resources are equivalent to action points, and spent in different decisions that affect the evolution of the virus.</p>
+		        <h6>Decision making</h6>
+		        <p>One of the biggest aims of the game is to raise awareness of the virus and the disease, and as such decision making is a core game mechanic whose use intends to educate.</p>
+		        <img src="img/Lhive_01.gif">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+				<!-- === MODAL WINDOW === -->
+		<div class="modal fade" tabindex="0" role="dialog" id="miwmiw">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h3 class="modal-title">MiwMiw</h3>
+		        <h4>A new tangible interaction model using gesture based interaction and Internet of Things to improve the dialogue between humans and everyday objects</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Duration: </span> &lt; 1 year</td>
+			        		<td><span class="bold">Team size: </span> 5</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="2"><span class="bold">Tools used: </span> Teensy 3.0, Teensyduino, Hardware building</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="2"><span class="bold">Role: </span> Interaction Designer, Hardware Designer & Builder</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Abstract</h5>
+		        <p>This research focuses on the design, validation and development of a new interaction model, from now on known as MiwMiw, whose main goal is to improve the dialogue with everyday objects, enduing them with new functionalities in a close, tangible and natural way.</p>
+		        <iframe width="640" height="480" src="https://www.youtube.com/embed/H7UcFMXahKk" frameborder="0" allowfullscreen></iframe>
+		        <br>
+		        <img src="img/Miwmiw_01.png">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+						<!-- === MODAL WINDOW === -->
+		<div class="modal fade" tabindex="0" role="dialog" id="bittrip">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h3 class="modal-title">Bittrip</h3>
+		        <h4>A 3D hardcore platformer (2.5D perspective) where a bipolar bit-based character has to get through WiFi waves, high-speed internet, faulty server wires and fight against evil viruses to deliver 1 bit of information</h4>
+		      </div>
+		      <div class="modal-body">
+			    <p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Platform: </span> PC</td>
+			        		<td><span class="bold">Duration: </span> &lt; 1 year</td>
+			        		<td><span class="bold">Team size: </span> 5</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Tools used: </span> Unity, 3Ds Max, Adobe Illustrator, Adobe Photoshop</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Role: </span> Game Designer, Level Designer, Tech Artist</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Overview</h5>
+		        <p>Bittrip is a single player, third-person platform adventure in 2.5D (3D with a 2D view) where a single bit called Bit (what a surprise!) has to travel through optical fiber, servers and wifi and deal with evil viruses to deliver safely 1 bit of information. </p>
+		        <p>Bit can exist in two different modes - 1 and 0 - and each one of them activates or deactivates Bit's abilities and its environment. In the game we treat them like two different characters that the player switches: One and Zero.</p>
+		        <iframe width="640" height="360" src="https://www.youtube.com/embed/pDNWC4_EhtM" frameborder="0" allowfullscreen></iframe>
+		        <h5>Core game mechanics</h5>
+		        <h6>Bit's bipolarity</h6>
+		        <p>Bit can exist in two different states. The player can always choose whether to exist in mode 0 or 1.</p>
+		        <p>Mode 0 is the natural mode. Zero can move, jump and shoot enemies.</p>
+		        <img src="img/Bittrip_04.gif">
+		        <p>Mode 1 is the special mode. One can see blocks that Zero can't, and when in this mode, some environment features get activated (such as ceiling magnets, secret gates or superspeed). On the other hand, the shooting ability stays deactivated.</p>
+		        <img src="img/Bittrip_03.gif">
+		        <img src="img/Bittrip_06.png">
+		        <p>The levels were designed so that the player has to stay alert, think quicky, react and switch cleverly between both modes in order to overcome obstacles. In some situations certain combos are needed such as One -> Jump -> Zero -> Shoot -> One -> Jump.</p>
+		        <h6>Energy management</h6>
+		        <p>Zero is able to shoot tiny misiles using energy. The player has to carefully manage that energy in order to be able to have munition for all the enemy encounters.</p>
+		        <p>In order to recover energy, levels have repeaters. On the other hand, Bit will have to avoid substractors that will remove energy from him.</p>
+		        <img src="img/Bittrip_05.png">
+		        <h5>Level Design</h5>
+		        <p>Levels were designed using the spectrum of environmental elements that emerged from the core mechanics such as breakable walls, through-walls, ceiling magnets, superspeed zones and Wi-Fi areas with floatability, among others.</p>
+		        <img src="img/Bittrip_08.png">
+		        <img src="img/Bittrip_07.png">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+						<!-- === MODAL WINDOW === -->
+		<div class="modal fade" tabindex="0" role="dialog" id="akamon">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h3 class="modal-title">Akamon</h3>
+		        <h4>A bunch of social casino Facebook games</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Platform: </span> PC (Facebook games), Mobile, Tablet</td>
+			        		<td><span class="bold">Duration: </span> 6 months</td>
+			        		<td><span class="bold">Team Size (Game design part): </span>2</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Tools used: </span>Microsoft Excel, IntelliJ</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Role: </span>Mathematical Game Designer</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Overview</h5>
+		        <p>As part of my job during the 6 months I worked at Akamon Entertainment Millenium I was enrolled in several social slot games and videobingos with different special features and themes. For all of them, I had to model the game, properly balance it, build a simulation and playtest it.</p>
+		        <p>The games are all published in the Viva! Bingo & Slots app, available in Facebook.</p>
+		        <h5>The Games</h5>
+		        <p>For each of the games I provide a significant screenshot. All games can be accessed at the following link: <a href="https://apps.facebook.com/vivabingoslots" target="_blank">Viva! Slots & Videobingo on Facebook</a></p>
+		        <h6>Gem Safari</h6>
+		        <img id="akamon01" data-src="img/Akamon_01.png">
+		        <h6>Golden Kitties</h6>
+				<img id="akamon02" src="img/Akamon_03.png">
+		        <h6>Wild Blooms</h6>
+		        <img id="akamon03" src="img/Akamon_02.png">
+		        <h6>Yum Yum Bingo</h6>
+		        <img id="akamon04" src="img/Akamon_04.png">
+		        <h6>Dragon Eggs</h6>
+		        <img id="akamon05" src="img/Akamon_05.png">
+		        <h6>Golden Bonanza</h6>
+		        <img id="akamon06" src="img/Akamon_06.png">
+		        <h6>Amazon Legends</h6>
+		        <img id="akamon07" src="img/Akamon_07.png">
+		        <h6>Temple of Fortune</h6>
+		        <img id="akamon08" src="img/Akamon_08.png">
+		        <h6>Pearl Reef</h6>
+		        <img id="akamon09" src="img/Akamon_09.png">
+		        <h6>Space Guardians</h6>
+		        <img id="akamon10" src="img/Akamon_11.png">
+		        <h6>Zodiac Empire</h6>
+		        <img id="akamon11" src="img/Akamon_10.png">
+		      </div>
+		      <div class="modal-footer">
+		        <button id="akamonbtn" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<script>
+		</script>
+	</body>
+</html>
