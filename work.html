@@ -42,7 +42,7 @@
 									<img class="img-responsive" src="img/honeymoon.png">
 									<figcaption>
 										<h2>Honeymoon</h2>
-										<p>A serious game about Teen Dating Violence, for the Love Live Game Challenge (Jenniffer Ann's Group)</p>
+										<p>An award winning serious game about Teen Dating Violence, for the Love Live Game Challenge (Jennifer Ann's Group)</p>
 										<a href="#honeymoon" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
 									</figcaption>
 								</figure>
@@ -82,7 +82,7 @@
 									<img class="img-responsive" src="img/bittrip.png">
 									<figcaption>
 										<h2>Bittrip</h2>
-										<p>A 3D hardcore platformer (2.5D perspective) where a bipolar bit-based character has to get through WiFi waves, high-speed internet, faulty server wires and fight against evil viruses.</p>
+										<p>A 2.5D hardcore platformer where a bipolar bit-based character has to get through WiFi waves, high-speed internet, faulty server wires and fight against evil viruses.</p>
 										<a href="#bittrip" role="button" data-toggle="modal" data-dismiss="modal" data-backdrop="true" class="button">View case study</a>
 									</figcaption>
 								</figure>
@@ -250,7 +250,7 @@
 			        		<td colspan="3"><span class="bold">Tools used: </span> Unity3D, 3DS Max, Adobe Illustrator, Adobe Photoshop</td>
 			        	</tr>
 			        	<tr>
-			        		<td colspan="3"><span class="bold">Role: </span> Game Designer, Game Developer, Game Artist, Sound Designer</td>
+			        		<td colspan="3"><span class="bold">Role: </span> Game Designer, Game Developer, Game Artist</td>
 			        	</tr>
 			        </table>
 		        </p>
@@ -271,11 +271,11 @@
 				<p>#265	Fun	3.41</p>
 				<p>#290	Humor	2.71</p>
 		        <h5>Download links</h5>
-		        <p><a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=90735">Ludum Dare Entry Webpage</a></p>
-		        <p><a href="https://drive.google.com/open?id=0ByiXtybvvxmkbExQYk5wOWlBSnc">Windows Download</a></p>
-		        <p><a href="https://drive.google.com/open?id=0ByiXtybvvxmkVlo2dTA0SXRhNnM">Linux Download</a></p>
-		        <p><a href="https://drive.google.com/open?id=0ByiXtybvvxmkVVZFcVJHTzJ0SGc">OS/X Download</a></p>
-		        <p><a href="https://drive.google.com/open?id=0ByiXtybvvxmkODVwdkQ4dGJ6R3M">Source Code</a></p>
+		        <p><a target="_blank" href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=90735">Ludum Dare Entry Webpage</a></p>
+		        <p><a target="_blank" href="https://drive.google.com/open?id=0ByiXtybvvxmkbExQYk5wOWlBSnc">Windows Download</a></p>
+		        <p><a target="_blank" href="https://drive.google.com/open?id=0ByiXtybvvxmkVlo2dTA0SXRhNnM">Linux Download</a></p>
+		        <p><a target="_blank" href="https://drive.google.com/open?id=0ByiXtybvvxmkVVZFcVJHTzJ0SGc">OS/X Download</a></p>
+		        <p><a target="_blank" href="https://drive.google.com/open?id=0ByiXtybvvxmkODVwdkQ4dGJ6R3M">Source Code</a></p>
 		        <img src="img/thisdungeonisalivescreenshot.png">
 		      </div>
 		      <div class="modal-footer">
@@ -291,7 +291,7 @@
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h3 class="modal-title">Honeymoon (Provisional Name)</h3>
+		        <h3 class="modal-title">Honeymoon</h3>
 		        <h4>A serious game about Teen Dating Violence, for the Love Live Game Challenge (Jenniffer Ann's Group)</h4>
 		      </div>
 		      <div class="modal-body">
@@ -311,7 +311,32 @@
 			        </table>
 		        </p>
 		        <h5>Overview</h5>
-		        <p>Under development. This page will be updated after the delivery date (1st June)</p>
+		        <p>Award winning single player, 2D visual novel (dating simulator style), conceived to increase awareness about teen dating violence, and help teens, tweens and young adults to identify and avoid abusive relationships.</p>
+				<p>The game will soon be published.</p>
+				<p><a target="_blank" href="http://school.aristos.us/sandra/honeymoon">Play a beta version of the game online here. </a></p>
+				<h6>Main Purpose</h6>
+				<p>The main purpose of this game is to get under the skin of as many players as possible, allowing boy-girl, girl-girl and boy-boy relationships, where the player can assume any gender. In order to achieve this, the game portrays subtle unhealthy treats in relationships that players can relate to, without getting to obvious (usually physically) violent behaviours.</p>
+				<p>Consequently, players will be able to swift their perception about concepts such as "love" or 
+				"romanticism" towards healthier mindsets, hopefully helping them to avoid introducing unhealthy attitudes in their future romantic relationships.</p>
+				<h5>Initial trailer</h5>
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/l5qwKGea-HA" frameborder="0" allowfullscreen></iframe>
+				<p>Note that this trailer portrays an early version of the game. An updated trailer will be available soon.</p>
+				<h5>Dialogue Engine</h5>
+				<p>The game required implementation of a dialogue engine that reacted to the player's choices, showing the appropiate branches of the story.</p>
+				<p>In order to do so, a dialogue engine had to be developed. The engine parses the story containing the story tree and updates the view accordingly.</p>
+				<p>The story tree file (JSON) is divided into a series of "Story Nodes", which in turn can contain a list of "Dialogue Nodes". Every "node" contains either a field that specifies the next node to be played or a list of options that trigger different "nodes".</p>
+				<p>Each node specifies the place we are at, the characters that should appear, and their moods, the texts, the options, and the effects that may be triggered (such as "fade" or "wiggle").</p>
+				<p>The engine also parses the texts, which have to be written following a specific syntax.</p>
+				<p>With this special syntax, we are able to specify the character that is speaking, his/her mood, and we use some special characters to specify new lines, and words that depend on the player's / crush's gender.</p>
+				<img src = "img/honeymoon_screenshot_5.png">
+				<h5>Screenshots</h5>
+				<h6>Story design. Tree.</h6>
+				<img src = "img/honeymoon_screenshot_1.png">
+				<h6>UI design</h6>
+				<img src = "img/honeymoon_screenshot_2.png">
+				<h6>Art</h6>
+				<img src = "img/honeymoon_screenshot_3.png">
+				<img src = "img/honeymoon_screenshot_4.png">
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

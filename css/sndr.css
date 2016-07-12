@@ -505,9 +505,9 @@ h1 {
 #worklist figcaption h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 4em;
 	text-transform: uppercase;
-	letter-spacing: -5px;
+	letter-spacing: -2px;
 }
 
 #worklist figcaption p {
