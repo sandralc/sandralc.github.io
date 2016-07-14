@@ -510,6 +510,10 @@ h1 {
 	letter-spacing: -2px;
 }
 
+.smaller{
+	font-size: 3em !important;
+}
+
 #worklist figcaption p {
 	font-size: 1.3em;
 }
