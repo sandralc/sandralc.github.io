@@ -549,7 +549,7 @@ h1 {
 	opacity: 1
 }
 
-.modal-content h3 {
+.modal-content h3, .aparte h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3em;
 	font-weight: 200;
@@ -558,7 +558,7 @@ h1 {
 	font-weight: 600;
 }
 
-.modal-content h4{
+.modal-content h4, .aparte h4{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2em;
 	font-weight: 600;
@@ -566,7 +566,7 @@ h1 {
 	padding-left: 20px;
 }
 
-.modal-content h5 {
+.modal-content h5, .aparte h5 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -576,7 +576,7 @@ h1 {
 	color: black;
 }
 
-.modal-content h6 {
+.modal-content h6, .aparte h6 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-weight: 200;
@@ -586,7 +586,7 @@ h1 {
 	color: rgb(136, 69, 99);
 }
 
-.modal-content img{
+.modal-content img, .aparte img{
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;

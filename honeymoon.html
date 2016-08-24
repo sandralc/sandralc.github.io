@@ -1,0 +1,84 @@
+<html lang="en">
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/sndr.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="jquery-1.11.3.min.js"></script>
+		<script src="jquery.lettering.js"></script>
+		<script src="jquery.transit.min.js"></script>
+		<script src="jquery.color-2.1.2.min.js"></script>
+		<script src="bootstrap.js"></script>
+		<script src="sndr.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="extra-padding">
+				<div class="row">
+					<nav id="navbar">
+						<ul class="nav">
+							<li class="col-sm-2"><a href="work.html" class="link clicked"><span class="icon-work4"></span><br>Work</a></li>
+							<li class="col-sm-2"><a href="cv.html" class="link"><span class="icon-cv2"></span><br>CV</a></li>
+								<li id="logo" class="col-sm-4">
+									<a id="logo-text" href="index.html" class="link"><span class="icon-logo"></span></a>
+								</li>
+							<li class="col-sm-2"><a href="publications.html" class="link"><span class="icon-publications2"></span><br>Publications</a></li>
+							<li class="col-sm-2"><a href="contact.html" class="link"><span class="icon-contact2"></span><br>Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+		</div>
+		<div class="container-fluid">
+			<section id="worklist" class="aparte">
+				<h3 class="modal-title">Honeymoon</h3>
+		        <h4>A serious game about Teen Dating Violence, for the Love Live Game Challenge (Jenniffer Ann's Group)</h4>
+		      <div class="modal-body">
+		      	<p>
+			        <table>
+			        	<tr>
+			        		<td><span class="bold">Platform: </span> WebGL</td>
+			        		<td><span class="bold">Duration: </span> 4-5 weeks</td>
+			        		<td><span class="bold">Team size: </span> 1</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Tools used: </span> Unity3D, Adobe Illustrator, Adobe Photoshop</td>
+			        	</tr>
+			        	<tr>
+			        		<td colspan="3"><span class="bold">Role: </span> Game Designer, Game Developer, Game Artist, Sound Designer</td>
+			        	</tr>
+			        </table>
+		        </p>
+		        <h5>Overview</h5>
+		        <p>Award winning single player, 2D visual novel (dating simulator style), conceived to increase awareness about teen dating violence, and help teens, tweens and young adults to identify and avoid abusive relationships.</p>
+				<p>The game will soon be published.</p>
+				<p><a target="_blank" href="http://school.aristos.us/sandra/honeymoon">Play a beta version of the game online here. </a></p>
+				<h6>Main Purpose</h6>
+				<p>The main purpose of this game is to get under the skin of as many players as possible, allowing boy-girl, girl-girl and boy-boy relationships, where the player can assume any gender. In order to achieve this, the game portrays subtle unhealthy treats in relationships that players can relate to, without getting to obvious (usually physically) violent behaviours.</p>
+				<p>Consequently, players will be able to swift their perception about concepts such as "love" or 
+				"romanticism" towards healthier mindsets, hopefully helping them to avoid introducing unhealthy attitudes in their future romantic relationships.</p>
+				<h5>Initial trailer</h5>
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/l5qwKGea-HA" frameborder="0" allowfullscreen></iframe>
+				<p>Note that this trailer portrays an early version of the game. An updated trailer will be available soon.</p>
+				<h5>Dialogue Engine</h5>
+				<p>The game required implementation of a dialogue engine that reacted to the player's choices, showing the appropiate branches of the story.</p>
+				<p>In order to do so, a dialogue engine had to be developed. The engine parses the story containing the story tree and updates the view accordingly.</p>
+				<p>The story tree file (JSON) is divided into a series of "Story Nodes", which in turn can contain a list of "Dialogue Nodes". Every "node" contains either a field that specifies the next node to be played or a list of options that trigger different "nodes".</p>
+				<p>Each node specifies the place we are at, the characters that should appear, and their moods, the texts, the options, and the effects that may be triggered (such as "fade" or "wiggle").</p>
+				<p>The engine also parses the texts, which have to be written following a specific syntax.</p>
+				<p>With this special syntax, we are able to specify the character that is speaking, his/her mood, and we use some special characters to specify new lines, and words that depend on the player's / crush's gender.</p>
+				<img src = "img/honeymoon_screenshot_5.png">
+				<h5>Screenshots</h5>
+				<h6>Story design. Tree.</h6>
+				<img src = "img/honeymoon_screenshot_1.png">
+				<h6>UI design</h6>
+				<img src = "img/honeymoon_screenshot_2.png">
+				<h6>Art</h6>
+				<img src = "img/honeymoon_screenshot_3.png">
+				<img src = "img/honeymoon_screenshot_4.png">
+		      </div>
+			</section>
+		</div>
