@@ -1,0 +1,216 @@
+<html lang="en">
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/sndr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="jquery.color-2.1.2.min.js"></script>
+    <script src="sndr.js"></script>
+</head>
+
+<body>
+    <div class="border-page">
+        <div id="sidebar" class="sidebar-offcanvas">
+            <div class="col-md-12">
+                <ul class="nav nav-stacked custom-buttons">
+                    <li><a href="index.html#about">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html#work">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>Work</span>
+                        </a>
+                    </li>
+                    <li><a href="index.html#cv">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>CV</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="col-md-11">
+                <div class="row" id="parent-title">
+                    <div class="col-lg-9 col-sm-12">
+                        <img src="img/title.png">
+                    </div>
+                </div>
+                <section id="vungle-playables">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>AGENT PATISSIER</h2>
+                            <br>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="video-container">
+                                <iframe id="agent-patissier" src="https://www.youtube.com/embed/STw3-U0IRDo?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <img src="img/agent-patissier-video.png" class="video-overlay" id="agent-patissier-overlay">
+                                <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'agent-patissier-overlay', 'agent-patissier');">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p><i>Published:</i> 2018</p>
+                            <p><i>What I did:</i> Built a stealth + cooking game in 48 hours for the Ludum Dare #41 Compo (individual entry). Created and developed core game mechanics merging stealth and cooking sim concepts, crafted 10 different levels/stages and produced all art and sound assets.</p>
+                            <p><i>Compo Outcome: </i>#135 Overall Score (from a total of +1100 Compo entries) </p>
+                            <p><i>Platforms: </i>Web | Mac | Windows | Linux</p>
+                            <p><i>Team size: </i>1</p>
+                            <p><i>Project length: </i>48 hours</p>
+                            <p><i>Engine and tools: </i>Unity, Aseprite, Adobe Suite</p>
+                            <p><i>Responsibilities:</i> Level Design, Systems Design, Scripting, UI/UX Design, Technical Design, Pixel Art Creation</p>
+                        </div>
+                    </div>
+                    <div class="row custom-buttons long">
+                        <div class="col-lg-2 col-sm-4 col-xs-5 work-button">
+                            <a href="https://sndr.itch.io/agent-patissier" target="_blank">
+                                <img src="img/green-button.png">
+                                <img class="pressed" src="img/green-button-pressed.png">
+                                <span style="color: white;">Play Online</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-sm-4 col-xs-5 work-button">
+                            <a href="https://ldjam.com/events/ludum-dare/41/agent-patissier" target="_blank">
+                                <img src="img/red-button.png">
+                                <img class="pressed" src="img/red-button-pressed.png">
+                                <span style="color: white;">View Entry</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>WHAT IS AGENT PATISSIER?</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-7 col-sm-12">
+                            <p><i>Agent Patissier</i> is my Compo entry (built in 48 hours from scratch) for the Ludum Dare #44 Game Jam. The theme was "Choose 2 incompatible genres" and I chose to merge <i>stealth</i> and <i>cooking sim</i>.</p>
+                            <p>The high-level core game loop of the game involves collecting 8 types of different ingredients without getting discovered (stealth), using those ingredients to craft desserts, and using those desserts to lure and distract patroling guards.</p>
+                            <ul style="font-weight: 300;">
+                                <li>Stealth your way into the rooms and recover the 9 stolen pages.</li>
+                                <li>Pick-up ingredients and use them to cook delicious desserts. Combine the 8 basic ingredients and discover new creations.</li>
+                                <li>Bait the patroling guards with your mouth-watering creations and use the opportunity to get deeper into the building.</li>
+                                <li>Four different types of enemies with varying behaviours and tastes.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 col-sm-12">
+                            <img src="img/captura08.gif">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>ENEMIES</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/captura10.gif">
+                        </div>
+                        <div class="col-lg-8">
+                            <p>Enemy design was an important aspect of the game that I had to focus on early on. My main enemy design goal was to merge both stealth and cooking sim genres seamlessly, blurring the line that initially seemed to make them incompatible.</p>
+                            <p>Therefore, enemies have cravings and specific tastes. Eating desserts affects them in different ways that feed back to the stealth aspect of the game: eyesight length changes, effects on speed, free roam time windows.</p>
+                            </p>
+                            <br>
+                            <p>For example, Cookie Monster has a really long eyesight, but this gets reduced after eating cookies (which they <i>love</i>!).</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>LEVEL DESIGN</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-12">
+                            <p>I designed a total of 10 levels for the Game Jam.</p>
+                            <p>Do note that most of them have balancing issues which would need adjusting if this was a game meant to be released to the public. However, the design level concepts can still be appreciated, and there is a first attempt at building level progression by introducing mechanics in an incremental manner.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img class="col-lg-4 col-sm-6 grid-image" src="img/ap-level01.png">
+                        <img class="col-lg-4 col-sm-6 grid-image" src="img/ap-level02.png">
+                        <img class="col-lg-4 col-sm-6 grid-image" src="img/ap-level03.png">
+                        <img class="col-lg-4 col-sm-6 grid-image" src="img/ap-level04.png">
+                        <img class="col-lg-4 col-sm-6 grid-image" src="img/ap-level05.png">
+                        <img class="col-lg-4 col-sm-6 grid-image" src="img/ap-level06.png">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>GAME ART</h3>
+                            <p>Due to the time challenge, in order to be able to produce the assets without spending long I decided to go for a simple Pixel Art style using Aseprite.</p>
+                            <h4>INGREDIENTS AND RECIPES</h4>
+                            <p>I created a total of 8 basic baking ingredients (butter, egg, milk, strawbery, cream, chocolate, flour, sugar) and a few dessert recipes that could be made from combinations of the basic ingredients.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing01.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing02.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing03.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing04.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing05.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing06.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing07.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/ing08.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert01.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert02.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert03.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert04.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert05.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert06.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert07.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert08.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert09.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert10.png">
+                            <img class="col-lg-1 col-sm-2 col-xs-3" src="img/dessert11.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h4>ENEMIES, PLAYER AND EVIL GRANDMA</h4>
+                            <p>I produced all characters in top-down view (very inspired by Hotline Miami style).</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img class="col-lg-1 col-md-2 col-xs-3" src="img/player.png">
+                            <img class="col-lg-1 col-md-2 col-xs-3" src="img/enemy2.png">
+                            <img class="col-lg-1 col-md-2 col-xs-3" src="img/enemy3.png">
+                            <img class="col-lg-1 col-md-2 col-xs-3" src="img/enemy4.png">
+                            <img class="col-lg-1 col-md-2 col-xs-3" src="img/enemy5.png">
+                            <img class="col-lg-1 col-md-2 col-xs-3" src="img/enemy1.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h4>TILES AND PROPS</h4>
+                            <p>In order to be able to produce a bunch of levels in a reasonable amount of time, I decided to go fors a tile-based maps using Unity's TileMaps, which turned out to be a very good choice!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img class="col-lg-2 col-md-3 col-xs-4" src="img/prop01.png">
+                            <img class="col-lg-2 col-md-3 col-xs-4" src="img/prop02.png">
+                            <img class="col-lg-2 col-md-3 col-xs-4" src="img/prop03.png">
+                            <img class="col-lg-2 col-md-3 col-xs-4" src="img/prop04.png">
+                            <img class="col-lg-2 col-md-3 col-xs-4" src="img/prop05.png">
+                            <img class="col-lg-2 col-md-3 col-xs-4" src="img/prop06.png">
+                        </div>
+                    </div>
+                    <br>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

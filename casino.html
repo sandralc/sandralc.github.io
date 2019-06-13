@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/sndr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="jquery.color-2.1.2.min.js"></script>
+    <script src="sndr.js"></script>
+</head>
+
+<body>
+    <div class="border-page">
+        <div id="sidebar" class="sidebar-offcanvas">
+            <div class="col-md-12">
+                <ul class="nav nav-stacked custom-buttons">
+                    <li><a href="index.html#about">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html#work">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>Work</span>
+                        </a>
+                    </li>
+                    <li><a href="index.html#cv">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>CV</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="col-md-11">
+                <div class="row" id="parent-title">
+                    <div class="col-lg-9 col-sm-12">
+                        <img src="img/title.png">
+                    </div>
+                </div>
+                <section id="vungle-playables">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>AKAMON + ASH GAMING</h2>
+                            <br>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="video-container">
+                                <iframe id="casino" src="https://www.youtube.com/embed/w5jfMYUSeUA?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <img src="img/casino-video.png" class="video-overlay" id="casino-overlay">
+                                <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'casino-overlay', 'casino');">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p><i>Published:</i> Dates ranging from 2014 until 2016.</p>
+                            <p><i>What I did:</i> Designed, balanced and fine tuned core game mechanics and systems for a big variety of games for mobile devices, Facebook and retail (physical machines).</p>
+                            <p><i>Studios: </i>Akamon Entertainment Millenium and Ash Gaming (Playtech)</p>
+                            <p><i>Platforms: </i>Mobile | Web | Retail (physical machines)</p>
+                            <p><i>Engine and tools: </i>Proprietary software, Flash (Facebook games), WebGL, Microsoft Excel, Visio and Word for documentation</p>
+                            <p><i>Responsibilities:</i> Game Balancing, Systems Design, Economy Balancing, Simulation</p>
+                        </div>
+                    </div>
+                    <div class="row custom-buttons long">
+                        <div class="col-lg-2 col-sm-4 col-xs-5 work-button">
+                            <a href="https://play.google.com/store/apps/details?id=air.com.akamon.viva&hl=es_419" target="_blank">
+                                <img src="img/green-button.png">
+                                <img class="pressed" src="img/green-button-pressed.png">
+                                <span style="color: white;">Viva Bingo!</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-sm-4 col-xs-5 work-button">
+                            <a href="https://www.vegasslotsonline.com/ash-gaming/" target="_blank">
+                                <img src="img/red-button.png">
+                                <img class="pressed" src="img/red-button-pressed.png">
+                                <span style="color: white;">Ash Gaming</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>SUMMARY OF RESPONSIBILITIES</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-7 col-sm-12">
+                            <p>During my time at Akamon and Ash Gaming I worked as a Game Designer focused on Systems Design and Game Balancing.</p>
+                            <p>My responsibilities included:</p>
+                            <ul style="font-weight: 300;">
+                                <li>Designing core game mechanics and balancing entire games for retail (physical arcade machines), web, mobile devices and Facebook games.</li>
+                                <li>Crafting models (in very big Excel spreadsheets) and balancing the game.</li>
+                                <li>Iterating on existing balances via user feedback and playtesting.</li>
+                                <li>Building scripts (Java, C#) that simulated millions of playthroughs of work-in-progress balances allowing us to analyse their gameplay experience and compare it with the performance and perceived experience of previously released games.</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5 col-sm-12">
+                            <img src="img/casino-animated.gif">
+                        </div>
+                    </div>                    
+                    <br>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

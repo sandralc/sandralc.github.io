@@ -1,56 +1,407 @@
 <html lang="en">
-	<head>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/sndr.css">
-		<link rel="stylesheet" href="css/style.css">
-		<script src="jquery-1.11.3.min.js"></script>
-		<script src="jquery.lettering.js"></script>
-		<script src="jquery.transit.min.js"></script>
-		<script src="jquery.color-2.1.2.min.js"></script>
-		<script src="sndr.js"></script>
-	</head>
-	<body>
-		<div class ="border-page">
-			<div class="container">
-				<header>
-					<div class="row">
-						<nav>
-							<ul class="nav">
-								<li class="col-sm-2"><a href="work.html" class="link"><span class="icon-work4"></span><br>Work</a></li>
-								<li class="col-sm-2"><a href="cv.html" class="link"><span class="icon-cv2"></span><br>CV</a></li>
-								<li class="col-sm-4" id="logo">
-									<a id="logo-text" href="index.html" class="link col-sm-12"><span class="icon-logo"></span></a>
-								</li>
-								<li class="col-sm-2"><a href="publications.html" class="link"><span class="icon-publications2"></span><br>Publications</a></li>
-								<li class="col-sm-2"><a href="contact.html" class="link"><span class="icon-contact2"></span><br>Contact</a></li>
-							</ul>
-						</nav>
-					</div>
-				</header>
-			</div>
-			<section class="portada">
-				<img class="img-portada" src="img/dragon.jpg">
-			</section>
-			<div class="container-fluid" id="introduction">
-				<div class="row margin-zero">
-					<div class="col-md-6"></div>
-					<div class="col-md-6 intro">
-						<h1>My name is </br> <span id="name">Sandra Lara</span> </br> and I create <span id="epic">epic</span> game experiences.</h1>
-						<h2>Playable Designer - Game Designer<br>Full Stack Game Developer</h2>
-						<h3>Got a proposal, a thought of simply want to say "hi"? Drop me an email to <span class="pink">sandralc711 at gmail dot com</span>!</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script>
 
-		animate();
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/sndr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="jquery.color-2.1.2.min.js"></script>
+    <script src="sndr.js"></script>
+</head>
 
-		</script>
-	</body>
+<body>
+    <div class="border-page">
+        <div id="sidebar" class="sidebar-offcanvas">
+            <div class="col-md-12">
+                <ul class="nav nav-stacked custom-buttons">
+                    <li><a href="#about">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="#work">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>Work</span>
+                        </a>
+                    </li>
+                    <li><a href="#cv">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>CV</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="col-md-11">
+                <div class="row" id="parent-title">
+                    <div class="col-lg-9 col-sm-12">
+                        <img src="img/title.png">
+                    </div>
+                </div>
+                <section id="about">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>About</h2>
+                            <p>
+                                I am a Game Designer with a strong technical background and a passion for crafting game systems and content to deliver memorable gaming experiences. I have experience developing games and playables for a big range of genres for mobile and PC using Unity and Phaser.js.
+                            </p>
+                            <p>
+                                In my most recent project, Numbers Cake Shop (still a provisional title!) I am sparking children’s imagination and creativity as part of a three-person team.
+                            </p>
+                            <p>
+                                During my time at Vungle I have worked for big titles from companies like King, Rovio, Peak, Bitmango and Playrix, among others, producing playables that have been top-performing in the network for months.
+                            </p>
+                            <p>
+                                These days I lead the Playable team at Vungle Creative Labs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row custom-buttons long">
+                        <div class="col-lg-2 col-sm-3  work-button">
+                            <a href="docs/CV_EN.pdf" download="Sandra Lara CV - Game Designer">
+                                <img src="img/yellow-button.png">
+                                <img class="pressed" src="img/yellow-button-pressed.png">
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-sm-3 work-button">
+                            <a href="mailto:sandralc711@gmail.com">
+                                <img src="img/green-button.png">
+                                <img class="pressed" src="img/green-button-pressed.png">
+                                <span style="color: white;">E-mail</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-sm-3 work-button">
+                            <a href="https://uk.linkedin.com/in/sandralaracastillo" target="_blank">
+                                <img src="img/linkedin-normal.png">
+                                <img class="pressed" src="img/linkedin-pressed.png">
+                                <!-- <span style="color: white;">E-mail</span> -->
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section id="work">
+                    <h2>Work</h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-left">
+                                <h3>Numbers Cake Shop (2019)</h3>
+                                <br>
+                                <img src="img/sample.png">
+                                <div class="row custom-buttons long">
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="#">
+                                            <img src="img/yellow-button.png">
+                                            <img class="pressed" src="img/yellow-button-pressed.png">
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p style="font-weight: 500">This game is now in Closed Beta.</p>
+                                <p><i>What I did:</i> Built an educational game on a three-person team, focused on generating an environment in which children can learn early maths by accident. Designed, developed and tuned core game systems, designed all levels in Beta release, created UI assets and drove world building.</p>
+                                <p><i>Platforms: </i>Android | iOS</p>
+                                <p><i>Team size: </i>Three core members (two artists and myself)</p>
+                                <p><i>Project length: </i>2 months (on-going)</p>
+                                <p><i>Engine and tools: </i>Unity, Adobe Suite, Google Docs</p>
+                                <p><i>Responsibilities:</i> Level Design, Systems Design, Scripting, UI/UX Design, Technical Design, Economy Balancing</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-right">
+                                <h3>Vungle (2016 - present)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <iframe id="vungle" src="https://www.youtube.com/embed/4RINyzASkuw?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <img src="img/vungle-video.png" class="video-overlay" id="vungle-overlay">
+                                    <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'vungle-overlay', 'vungle');">
+                                </div>
+                                <div class="row custom-buttons long">
+                                    <div class="col-lg-4 col-sm-3  work-button">
+                                        <a href="vungle.html">
+                                            <img src="img/yellow-button.png">
+                                            <img class="pressed" src="img/yellow-button-pressed.png">
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p><i>What I am doing:</i> Designing and developing a big range of playables for multiple mobile titles covering a bit set of genres. Leading and art directing Vungle's Playable team to ensure that our playable experiences connect with users by surprising and challenging them.</p>
+                                <p><i>Platforms: </i>Android | iOS | Windows</p>
+                                <p><i>Engine and tools: </i>Phaser.JS, HTML/CSS, Adobe Suite, Google Docs</p>
+                                <p><i>Responsibilities:</i> Systems Design, Level Design, UI/UX Design, Scripting, Interaction Design</p>
+                                <img style="max-width: 100px" src="img/vungle-logo.svg">
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-left">
+                                <h3>Agent Patissier (2018)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <iframe id="agent-patissier" src="https://www.youtube.com/embed/STw3-U0IRDo?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <img src="img/agent-patissier-video.png" class="video-overlay" id="agent-patissier-overlay">
+                                    <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'agent-patissier-overlay', 'agent-patissier');">
+                                </div>
+                                <div class="row custom-buttons long">
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="agent-patissier.html">
+                                            <img src="img/yellow-button.png">
+                                            <img class="pressed" src="img/yellow-button-pressed.png">
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="https://sndr.itch.io/agent-patissier" target="_blank">
+                                            <img src="img/green-button.png">
+                                            <img class="pressed" src="img/green-button-pressed.png">
+                                            <span style="color: white;">Play Online</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="https://ldjam.com/events/ludum-dare/41/agent-patissier" target="_blank">
+                                            <img src="img/red-button.png">
+                                            <img class="pressed" src="img/red-button-pressed.png">
+                                            <span style="color: white;">View Entry</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p><i>What I did:</i> Built a stealth + cooking game in 48 hours for the Ludum Dare #41 Compo (individual entry). Created and developed core game mechanics merging stealth and cooking sim concepts, crafted 10 different levels/stages and produced all art and sound assets.</p>
+                                <p><i>Theme: </i>Choose two incompatible genres</p>
+                                <p><i>Compo Outcome: </i>#135 Overall Score (from a total of +1100 Compo entries) </p>
+                                <p><i>Platforms: </i>Web | Mac | Windows | Linux</p>
+                                <p><i>Team size: </i>1</p>
+                                <p><i>Project length: </i>48 hours</p>
+                                <p><i>Engine and tools: </i>Unity, Aseprite, Adobe Suite</p>
+                                <p><i>Responsibilities:</i> Level Design, Systems Design, Scripting, UI/UX Design, Technical Design, Pixel Art Creation</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-right">
+                                <h3>Honeymoon (2016)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <iframe id="honeymoon" src="https://www.youtube.com/embed/l5qwKGea-HA?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <img src="img/honeymoon-video.png" class="video-overlay" id="honeymoon-overlay">
+                                    <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'honeymoon-overlay', 'honeymoon');">
+                                </div>
+                            </div>
+                            <div class="row custom-buttons long">
+                                <div class="col-lg-4 col-sm-3  work-button">
+                                    <a href="honeymoon.html">
+                                        <img src="img/yellow-button.png">
+                                        <img class="pressed" src="img/yellow-button-pressed.png">
+                                        <span>Read More</span>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-sm-3 work-button">
+                                    <a href="https://jagga.me/thehoneymoon/index.html" target="_blank">
+                                        <img src="img/green-button.png">
+                                        <img class="pressed" src="img/green-button-pressed.png">
+                                        <span style="color: white;">Play Online</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p><i>What I did:</i> Designed, wrote and developed a 2D dating simulator game conceived to increase awareness around teen dating violence, and help teens, tweens and young adults to identify and avoid abusive relationships. The game was presented to the <a href="https://jagga.me/">Life.Love. Game Challenge (Jennifer Ann's Group)</a> and was awarded 3rd prize.</p>
+                            <p><i>Platforms: </i>Web | Android | iOS</p>
+                            <p><i>Team size: </i>1</p>
+                            <p><i>Project length: </i>7-8 weeks</p>
+                            <p><i>Engine and tools: </i>Unity, proprietary dialogue scripting system, Adobe Suite, Google Docs</p>
+                            <p><i>Responsibilities:</i> Game Writing, Scripting, Game Art, UI/UX Design</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-left">
+                                <h3>This Dungeon is Alive (2016)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <iframe id="this-dungeon-is-alive" src="https://www.youtube.com/embed/DdSEK-y_J1o?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <img src="img/thisdungeonisalive-video.png" class="video-overlay" id="this-dungeon-is-alive-overlay">
+                                    <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'this-dungeon-is-alive-overlay', 'this-dungeon-is-alive');">
+                                </div>
+                                <div class="row custom-buttons long">
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="dungeon.html">
+                                            <img src="img/yellow-button.png">
+                                            <img class="pressed" src="img/yellow-button-pressed.png">
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="https://sndr.itch.io/this-dungeon-is-alive" target="_blank">
+                                            <img src="img/green-button.png">
+                                            <img class="pressed" src="img/green-button-pressed.png">
+                                            <span style="color: white;">Download</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=90735" target="_blank">
+                                            <img src="img/red-button.png">
+                                            <img class="pressed" src="img/red-button-pressed.png">
+                                            <span style="color: white;">View Entry</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p><i>What I did:</i> Built a 3D first-person short game in 48 hours for the Ludum Dare #35 Compo (individual entry). Designed and developed the whole piece, tuned core dungeon shape-shifting mechanic and crafted all art and sound assets.</p>
+                                <p><i>Theme: </i>Shapeshifting</p>
+                                <p><i>Compo Outcome: </i>#20 in Mood, #147 Overall (from a total of +1100 Compo entries, +2700 overall) </p>
+                                <p><i>Platforms: </i>Android | iOS</p>
+                                <p><i>Team size: </i>1</p>
+                                <p><i>Project length: </i>48 hours</p>
+                                <p><i>Engine and tools: </i>Unity, 3DS Max, Photoshop, Illustrator, Audacity</p>
+                                <p><i>Responsibilities:</i> Scripting, Level Design, 3D Game Artist, Sound Designer</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-right">
+                                <h3>Akamon + Ash Gaming (2014 - 2016)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <iframe id="casino" src="https://www.youtube.com/embed/w5jfMYUSeUA?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <img src="img/casino-video.png" class="video-overlay" id="casino-overlay">
+                                    <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'casino-overlay', 'casino');">
+                                </div>
+                            </div>
+                            <div class="row custom-buttons long">
+                                <div class="col-lg-4 col-sm-3  work-button">
+                                    <a href="casino.html">
+                                        <img src="img/yellow-button.png">
+                                        <img class="pressed" src="img/yellow-button-pressed.png">
+                                        <span>Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p><i>What I did:</i> Designed, balanced and fine tuned core game mechanics and systems for a big variety of games for mobile devices, Facebook and physical arcade machines.</p>
+                            <p><i>Studios: </i>Akamon Entertainment Millenium and Ash Gaming (Playtech)</p>
+                            <p><i>Platforms: </i>Mobile | Web | Retail (physical machines)</p>
+                            <p><i>Engine and tools: </i>Proprietary software, Flash (Facebook games), WebGL, Microsoft Excel, Visio and Word for documentation</p>
+                            <p><i>Responsibilities:</i> Game Balancing, Systems Design, Economy Balancing, Simulation</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-left">
+                                <h3>Glioblastoma (2016)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <iframe id="glioblastoma" src="https://www.youtube.com/embed/KTxF0qY_uUI?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <img src="img/glioblastoma-video.png" class="video-overlay" id="glioblastoma-overlay">
+                                    <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'glioblastoma-overlay', 'glioblastoma');">
+                                </div>
+                                <div class="row custom-buttons long">
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="glioblastoma.html">
+                                            <img src="img/yellow-button.png">
+                                            <img class="pressed" src="img/yellow-button-pressed.png">
+                                            <span>Read More</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-3 work-button">
+                                        <a href="https://gliolab.wixsite.com/joanoro2016/descarregues" target="_blank">
+                                            <img src="img/green-button.png">
+                                            <img class="pressed" src="img/green-button-pressed.png">
+                                            <span style="color: white;">Website</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Built an educational game on a three-person team, focused on generating an environment in which children can learn early maths by accident. Designed, developed and tuned core game systems, designed all levels in Beta release, created UI assets and drove world building. -->
+                                <p><i>What I did:</i> Built a short scientific awareness game in collaboration with a biomedicine researcher from the Esther Koplovich's Research Center. Designed game storytelling following my partner's scientific briefs. Developed the entire 3D experience, produced 3D assets and video animations.</p>
+                                <p><i>Platforms: </i>Windows | Mac | Linux</p>
+                                <p><i>Team size: </i>2 (myself and a biomedicine researcher)</p>
+                                <p><i>Project length: </i>7-8 weeks</p>
+                                <p><i>Engine and tools: </i>Unity, 3DS Max, Photoshop, Illustrator, Audacity</p>
+                                <p><i>Responsibilities:</i> Scripting, Animation, 3D asset design, UI/UX Design</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="project-right">
+                                <h3>Ragnarök (2016)</h3>
+                                <br>
+                                <div class="video-container">
+                                    <img src="img/ragnarok.png" class="video-overlay">
+                                </div>
+                            </div>
+                            <div class="row custom-buttons long">
+                                <div class="col-lg-4 col-sm-3  work-button">
+                                    <a href="ragnarok.html">
+                                        <img src="img/yellow-button.png">
+                                        <img class="pressed" src="img/yellow-button-pressed.png">
+                                        <span>Read More</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p><i>What I did:</i> Designed and balanced a commissioned 2 player card battle game with customisable decks where players take the role of a viking king and have to defeat the enemy.</p>
+                            <p><i>Platforms: </i>PC</p>
+                            <p><i>Project length: </i>4 months</p>
+                            <p><i>Engine and tools: </i>Excel, NanDeck (http://www.nand.it/nandeck/), Paper prototyping</p>
+                            <p><i>Responsibilities:</i> Game Balancing, Systems Design, Economy Balancing, Simulation</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <!-- Resto de apartados:
+                        Older projects (4 in a single row):
+                        ~ Tartarus
+                        ~ LHIVE
+                        ~ Bittrip
+                        ~ TFG
+                     -->
+                </section>
+                <section id="cv">
+                    <div class="row custom-buttons long">
+                        <div class="col-lg-12">
+                            <h2>CV</h2>
+                        </div>
+                        <div class="col-lg-2 col-sm-3  work-button">
+                            <a href="docs/CV_EN.pdf" download="Sandra Lara CV - Game Designer" target="_blank">
+                                <img src="img/yellow-button.png">
+                                <img class="pressed" src="img/yellow-button-pressed.png">
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-sm-3 work-button">
+                            <a href="mailto:sandralc711@gmail.com">
+                                <img src="img/green-button.png">
+                                <img class="pressed" src="img/green-button-pressed.png">
+                                <span style="color: white;">E-mail</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-sm-3 work-button">
+                            <a href="https://uk.linkedin.com/in/sandralaracastillo" target="_blank">
+                                <img src="img/linkedin-normal.png">
+                                <img class="pressed" src="img/linkedin-pressed.png">
+                                <!-- <span style="color: white;">E-mail</span> -->
+                            </a>
+                        </div>
+                        <div class="col-lg-12">
+                            <iframe src="docs/CV_EN.pdf" width="100%" height="100%"></iframe>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="introduction">
+    </div>
+    </div>
+    <script>
+    </script>
+</body>
+
 </html>
