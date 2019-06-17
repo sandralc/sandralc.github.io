@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/sndr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="jquery.color-2.1.2.min.js"></script>
+    <script src="sndr.js"></script>
+</head>
+
+<body>
+    <div class="border-page">
+        <div id="sidebar" class="sidebar-offcanvas">
+            <div class="col-md-12">
+                <ul class="nav nav-stacked custom-buttons">
+                    <li><a href="index.html#about">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html#work">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>Work</span>
+                        </a>
+                    </li>
+                    <li><a href="index.html#cv">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>CV</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="col-md-11">
+                <div class="row" id="parent-title">
+                    <div class="col-lg-9 col-sm-12">
+                        <img src="img/title.png">
+                    </div>
+                </div>
+                <section id="vungle-playables">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>NUMBERS CAKE SHOP (PROVISIONAL TITLE)</h2>
+                            <br>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="video-container">
+                                <iframe id="cake-shop" src="https://www.youtube.com/embed/0tT7zLOmer8?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <img src="img/cake-video.png" class="video-overlay" id="cake-shop-overlay">
+                                <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'cake-shop-overlay', 'cake-shop');">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p><i>To be published:</i> Late 2019 <b>currently in closed beta</b></p>
+                            <p><i>What I did:</i> Built an educational game on a three-person team, focused on generating an environment in which children can learn early maths by accident. Designed, developed and tuned core game systems, designed all levels in Beta release, created UI assets and drove world building.</p>
+                            <p><i>Platforms: </i>Android | iOS</p>
+                            <p><i>Team size: </i>Three core members (two artists and myself)</p>
+                            <p><i>Project length: </i>2 months (on-going)</p>
+                            <p><i>Engine and tools: </i>Unity, Adobe Suite, Google Docs</p>
+                            <p><i>Responsibilities:</i> Level Design, Systems Design, Scripting, UI/UX Design, Technical Design, Economy Balancing, Sound Design</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>WHAT IS NUMBERS CAKE SHOP?</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-9 col-sm-12">
+                            <p><i>Numbers Cake Shop</i> (provisional title) is a cooking game where you combine and divide layers of cakes to bake different creations for your hungry visitors.</p>
+                            <p>Its main aim is for kids to have fun and learn early maths by accident. It focuses on adding and substracting small numbers, and it does so by adding puzzle elements to the cooking genre and exploring a wide variety of game modes for kids to approach the same problem in a set of different ways.</p>
+                            <h3>SUMMARY OF RESPONSIBILITIES</h3>
+                            <p>Charlotte, Chi (the two other teammates) and myself wanted to collaborate to create a little game that was not only fun to play, but also a great tool for little kids to learn early maths. It was important for us to get away from usual educational games' core mechanics (work, then fun as a reward) and generate an environment in which children could learn by accident while having fun.</p>
+                            <p>I defined a set of goals and we utilised those in exploring the core design. I designed new systems and game modes and tuned them.</p>
+                            <p>I scripted the whole game and I crafted all the levels in the Beta version which is currently being playtested.</p>
+                            <p>I created most of the UI flow and a few of the assets.</p>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-xs-8">
+                            <img src="img/cake-shop-animated.gif">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>SCREENSHOTS</h3>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img class="col-lg-3 col-sm-6 grid-image-cake" src="img/cake1.png">
+                        <img class="col-lg-3 col-sm-6 grid-image-cake" src="img/cake2.png">
+                        <img class="col-lg-3 col-sm-6 grid-image-cake" src="img/cake3.png">
+                        <img class="col-lg-3 col-sm-6 grid-image-cake" src="img/cake4.png">
+                    </div>
+                    <br>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

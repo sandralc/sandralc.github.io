@@ -62,7 +62,14 @@ window.onYouTubeIframeAPIReady = function() {
             onReady: onPlayerReady
         }
     });
-    //KTxF0qY_uUI
+    players['cake-shop'] = new YT.Player('cake-shop', {
+        videoId: '0tT7zLOmer8',
+        playerVars: playerConfig,
+        events: {
+            onReady: onPlayerReady
+        }
+    });
+    //0tT7zLOmer8
 };
 
 // API event: when the player is ready, call the function in the queue
