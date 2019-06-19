@@ -1,61 +1,119 @@
 <html lang="en">
-	<head>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/sndr.css">
-		<link rel="stylesheet" href="css/style.css">
-		<script src="jquery-1.11.3.min.js"></script>
-		<script src="jquery.lettering.js"></script>
-		<script src="jquery.transit.min.js"></script>
-		<script src="jquery.color-2.1.2.min.js"></script>
-		<script src="bootstrap.js"></script>
-		<script src="sndr.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<header class="extra-padding">
-				<div class="row">
-					<nav id="navbar">
-						<ul class="nav">
-							<li class="col-sm-2"><a href="work.html" class="link clicked"><span class="icon-work4"></span><br>Work</a></li>
-							<li class="col-sm-2"><a href="cv.html" class="link"><span class="icon-cv2"></span><br>CV</a></li>
-								<li id="logo" class="col-sm-4">
-									<a id="logo-text" href="index.html" class="link"><span class="icon-logo"></span></a>
-								</li>
-							<li class="col-sm-2"><a href="publications.html" class="link"><span class="icon-publications2"></span><br>Publications</a></li>
-							<li class="col-sm-2"><a href="contact.html" class="link"><span class="icon-contact2"></span><br>Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header>
-		</div>
-		<div class="container-fluid">
-			<section id="worklist" class="aparte">
-				 <h3 class="modal-title smaller">MiwMiw</h3>
-		        <h4>A new tangible interaction model using gesture based interaction and Internet of Things to improve the dialogue between humans and everyday objects</h4>
-		      <div class="modal-body">
-		        <p>
-			        <table>
-			        	<tr>
-			        		<td><span class="bold">Duration: </span> &lt; 1 year</td>
-			        		<td><span class="bold">Team size: </span> 5</td>
-			        	</tr>
-			        	<tr>
-			        		<td colspan="2"><span class="bold">Tools used: </span> Teensy 3.0, Teensyduino, Hardware building</td>
-			        	</tr>
-			        	<tr>
-			        		<td colspan="2"><span class="bold">Role: </span> Interaction Designer, Hardware Designer & Builder</td>
-			        	</tr>
-			        </table>
-		        </p>
-		        <h5>Abstract</h5>
-		        <p>This research focuses on the design, validation and development of a new interaction model, from now on known as MiwMiw, whose main goal is to improve the dialogue with everyday objects, enduing them with new functionalities in a close, tangible and natural way.</p>
-		        <iframe width="640" height="480" src="https://www.youtube.com/embed/H7UcFMXahKk" frameborder="0" allowfullscreen></iframe>
-		        <br>
-		        <img src="img/Miwmiw_01.png">
-		      </div>
-			</section>
-		</div>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/sndr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.lettering.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="jquery.color-2.1.2.min.js"></script>
+    <script src="sndr.js"></script>
+</head>
+
+<body>
+    <div class="border-page">
+        <div id="sidebar" class="sidebar-offcanvas">
+            <div class="col-md-12">
+                <ul class="nav nav-stacked custom-buttons">
+                    <li><a href="index.html#about">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="index.html#work">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>Work</span>
+                        </a>
+                    </li>
+                    <li><a href="index.html#cv">
+                            <img src="img/menu-btn.png">
+                            <img class="pressed" src="img/menu-btn-pressed.png">
+                            <span>CV</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div class="col-md-11">
+                <div class="row" id="parent-title">
+                    <div class="col-lg-9 col-sm-12">
+                        <img src="img/title.png">
+                    </div>
+                </div>
+                <section id="vungle-playables">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>MIW MIW</h2>
+                            <br>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="video-container">
+                                <iframe id="miwmiw" src="https://www.youtube.com/embed/H7UcFMXahKk?modestbranding=1&showinfo=0&wmode=opaque&enablejsapi=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <img src="img/miwmiw-video.png" class="video-overlay" id="miwmiw-overlay">
+                                <img src="img/play-video-button.png" class="video-overlay-button" onclick="hideOverlay(this, 'miwmiw-overlay', 'miwmiw');">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p><i>Published:</i> 2014</p>
+                            <p><i>What I did:</i> Designed and created a new tangible interaction model using gesture based interaction and Internet of Things to improve the dialogue between humans and everyday objects.</p>
+                            <p><i>Project length: </i>1 year</p>
+                            <p><i>Engine and tools: </i>Teensy 3.0, Teensyduino, Hardware building</p>
+                            <p><i>Responsibilities:</i>Interaction Design, Hardware Design, UI/UX Design</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>OVERVIEW</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <p><i>Miw Miw</i> is a project that focuses on the design, validation and development of a new interaction model whose main goal is to improve the dialogue with everyday objects, enduing them with new functionalities in a close, tangible and natural way.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
+                            <img src="img/miwmiw1.png">
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3>SUMMARY OF RESPONSIBILITIES</h3>
+                            <br>
+                        </div>
+                        <div class="col-lg-7 col-sm-12">
+                            <p>I researched the state of the art for ubiquitous computing, Smart Objects (MIT) and tangible interaction. I also investigated the use of sensor networks and gesture-based interactive language to blur the line that separates the physical and the digital world.</p>
+                            <p>I defined a set of goals for the project, based on three main pillars: sensor networks user interfaces, gesture-based control and the science behind Smarter Objects. I designed a set of fake prototypes that helped to delimit the scope of the project.</p>
+                            <p>I researched the technology and hardware required to bring the project to life.</p>
+                            <p>I defined the communication protocol between the MiwMiws and everyday objects (lamps were used on the prototype).</p>
+                            <p>I welded, assembled and coded the whole prototype, using touch screens, accelerometer sensors, bluetooth and RFID technology.</p>
+                        </div>
+                        <div class="col-lg-5 col-sm-4 col-xs-8">
+                            <img src="img/miwmiw2.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <img src="img/miwmiw3.png">
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                    <br>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

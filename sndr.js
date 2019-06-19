@@ -69,7 +69,13 @@ window.onYouTubeIframeAPIReady = function() {
             onReady: onPlayerReady
         }
     });
-    //0tT7zLOmer8
+    players['miwmiw'] = new YT.Player('miwmiw', {
+        videoId: 'H7UcFMXahKk',
+        playerVars: playerConfig,
+        events: {
+            onReady: onPlayerReady
+        }
+    });
 };
 
 // API event: when the player is ready, call the function in the queue
